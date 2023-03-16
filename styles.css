@@ -473,14 +473,14 @@ form input::placeholder, form textarea::placeholder {
 	font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 850px) {
 	#close, #menu {
 		display: block;
 	}
 	#header {
 		width: 100%;
 		height: 100vh;
-		background-image: url(images/personal/vinay3.jpg);
+		background-image: url(images/personal/vinay4.jpg);
 		background-size: cover;
 		background-position: center;
 		}
