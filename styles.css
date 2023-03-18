@@ -275,6 +275,7 @@ nav ul li a:hover {
 .service-list div {
 	background:  white;
 	padding: 30px;
+	border-radius: 4px;
 }
 
 .service-list div:hover {
@@ -330,6 +331,7 @@ nav ul li a:hover {
 .activity-list div {
 	background:  white;
 	padding: 30px;
+	border-radius: 4px;
 }
 .activity-list div:hover {
 	-ms-transform: scale(1.2);
@@ -391,6 +393,7 @@ nav ul li a:hover {
 	background:  white;
 	padding: 20px;
 	width: 100%;
+	border-radius: 4px;
 }
 
 /* end of project section */
