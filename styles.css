@@ -488,7 +488,7 @@ form input::placeholder, form textarea::placeholder {
 	font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 600px) {
 	#close, #menu {
 		display: block;
 	}
