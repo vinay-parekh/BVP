@@ -234,7 +234,7 @@ nav ul li a:hover {
 /* service section */
 
 .service {
-	background: white;
+	background: rgb(243, 243, 243);
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -251,7 +251,7 @@ nav ul li a:hover {
 	margin: auto;
 	width: 100%;
 	padding: 30px;
-	background-color: rgb(243, 243, 243);
+	background-color: white;
 	margin-top: 12px;
 	margin-bottom: 12px;
 	border-radius: 6px;
@@ -273,7 +273,7 @@ nav ul li a:hover {
 }
 
 .service-list div {
-	background:  white;
+	background:  rgb(243, 243, 243);
 	padding: 30px;
 	border-radius: 4px;
 }
@@ -345,7 +345,7 @@ nav ul li a:hover {
 /* project section */
 
 .project {
-	background: white;
+	background: rgb(243, 243, 243);
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -362,7 +362,7 @@ nav ul li a:hover {
 	margin: auto;
 	width: 100%;
 	padding: 25px;
-	background-color: rgb(243, 243, 243);
+	background-color: white;
 	margin-top: 12px;
 	margin-bottom: 12px;
 	border-radius: 6px;
@@ -390,7 +390,7 @@ nav ul li a:hover {
 }
 
 .project-list div {
-	background:  white;
+	background:  rgb(243, 243, 243);
 	padding: 20px;
 	width: 100%;
 	border-radius: 4px;
@@ -656,7 +656,7 @@ form input::placeholder, form textarea::placeholder {
 			margin: auto;
 			width: 100%;
 			padding: 15px;
-			background-color: rgb(243, 243, 243);
+			background-color: white;
 			margin-top: 12px;
 			margin-bottom: 12px;
 			border-radius: 6px;
@@ -676,7 +676,7 @@ form input::placeholder, form textarea::placeholder {
 			margin: auto;
 			width: 100%;
 			padding: 15px;
-			background-color: rgb(243, 243, 243);
+			background-color: white;
 			margin-top: 12px;
 			margin-bottom: 12px;
 			border-radius: 6px;
@@ -693,6 +693,30 @@ form input::placeholder, form textarea::placeholder {
 		.socio-icons a:hover {
 			cursor: pointer;
 			transform: translateY(-4px);
+		}
+		.service {
+			background: rgb(243, 243, 243);
+			font-family: 'Poppins', sans-serif;
+		}
+		.service-list div {
+			background:  rgb(243, 243, 243);
+		}
+		
+		.activity {
+			background: white;
+			font-family: 'Poppins', sans-serif;
+		
+		}
+		.activity-list div {
+			background:  white;
+		}
+		.project {
+			background: rgb(243, 243, 243);
+			font-family: 'Poppins', sans-serif;
+		
+		}
+		.project-list div {
+			background:  rgb(243, 243, 243);
 		}
 }
 
