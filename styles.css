@@ -473,7 +473,7 @@ form input::placeholder, form textarea::placeholder {
 /* end of contact section */
 
 /* for smaller screens */
-#close, #menu {
+nav .fa-solid {
 	display: none;
 }
 
@@ -555,12 +555,10 @@ form input::placeholder, form textarea::placeholder {
 		border-radius: 10px;
 		margin-right: 4px;
 	}
-	
-	  #sidemenu {
+	nav .fa-solid {
 		display: block;
+		font-size: 25px;
 	  }
-
-
 	  nav ul {
 		background-color: black;
 		position: fixed;
@@ -577,6 +575,17 @@ form input::placeholder, form textarea::placeholder {
 		margin: 25px; 
 		position: relative;
 	  }
+	nav ul .fa-solid{
+		position: absolute;
+		top: 25px;
+		left: 25px;
+		cursor: pointer;
+	  }
+	nav .menu {
+		right: 25px;
+		position: absolute;
+		cursor: pointer;
+	  }
 	  #logo {
 		font-size: 34px;
 		color: white;
@@ -587,20 +596,7 @@ form input::placeholder, form textarea::placeholder {
 	#logo:hover {
 		color: lemonchiffon;
 	}
-	 #sidemenu {
-		position: absolute;
-		bottom: 10px;
-		cursor: pointer;
-	  }
-	  #menu {
-		cursor: pointer;
-	  }
-	  #close {
-		position: absolute;
-		top: 25px;
-		left: 25px;
-		cursor: pointer;
-	  }
+	 
 	  .copyright {
 		background-color: black;
 		color: white;
