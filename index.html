@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0," />
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="styles.css">	
+</head>
+<body>
+	<div id = "header">
+		<div class = "container">
+			<nav>
+				<h1 class="logo"><a id = "logo" href="index.html">BVP</a></h1>
+				<ul id = "sidemenu">
+					<li><a href="index.html">Home</a></li>
+			  		<li><a href="#about">About</a></li>
+			  		<li><a href="#services">Domains</a></li>
+					<li><a href="#activities">Activities</a></li>
+			  		<li><a href="#projects">Projects</a></li>
+			  		<li><a href="#contact">Contact</a></li>
+					<img class = "fa-solid close" src = "images/icons/close.png" onclick="closemenu()">
+				</ul>
+				<img class = "fa-solid menu" src = "images/icons/menu.png" onclick="openmenu()">
+			</nav>
+			<h1 class = "hero-title"><span id = "hey">Hey, </span>I'm Vinay Parekh</h1>
+
+		</div>
+	</div>
+
+	<!-- <header class="sticky">
+		<a href="index.html" class="logo">BVP</a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#about">About</a></li>
+	  		<li><a href="#services">Domains</a></li>
+			<li><a href="#activities">Activities</a></li>
+	  		<li><a href="#projects">Projects</a></li>
+	  		<li><a href="#contact">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner">
+	</section> -->
+	
+
+	<!-- 2. start of about me section-->
+	<section id = "about">
+		<div id = "about" class = "About">
+			<div class = "container">
+				<div class = "about-box">
+					<div class = "about-col-1">
+						<div>
+						<img id = "myimage" src = "images/personal/myimage.jpg">
+						</div>
+					</div>
+					<div class = "about-col-2">
+						<h1 id = "about-me" style="margin-top: 15px;">About Me!</h1><br>
+						<p id = "aboutme-description">
+							Hello! I'm a Chennai based data analyst and web developer. 
+							I'm currently pursuing an undergraduate degree, i.e. Bachelors of Technology in Computer Science and Business Systems, 
+							from Rajalakshmi Engineering College, Chennai. I enjoy travelling and I'm a curious learner and self-reliant. 
+							I've effective leadership skills, strong interpersonal and communication skills, and I'm good team worker as well.
+						</p>
+						<br>
+						<div class = "tab-titles">
+							<p class = "tab-links active-link" onclick="opentab('education')">Education</p>
+							<p class = "tab-links" onclick="opentab('skills')">Skills</p>
+							<p class = "tab-links" onclick="opentab('hobbies')">Interests</p>
+						</div>
+						<div id = "education" class = "tab-content active-tab">
+							<h3 id = "education-name">Rajalakshmi Engineering College, Chennai</h3>
+                    		<p id = "education-degree">B. Tech, Computer Science and Business Systems<br>
+                      		<p id = "education-score"><span>CGPA: 8.8 </span><br>
+                      		<span>Oct' 2020 - May 2024</span></P>
+                    		</p>
+							<br>
+							<h3 id = "education-name">Kola Saraswathi Vaishnav Sr. Sec. School, Chennai</h3>
+                    		<p id = "education-degree">Class XII<br>
+                      		<p id = "education-score"><span>CBSE | 93% </span><br>
+                      		<span>Jun' 2018 - May 2020</span></p>
+                    		</p>
+							<br>
+							<h3 id = "education-name">Satyam International School, Ballari</h3>
+                    		<p id = "education-degree">Class X<br>
+                      		<p id = "education-score"><span>CBSE | 86%</span><br>
+                      		<span>Apr' 2011 - May 2018</span></p>
+                    		</p>
+						</div>
+						<div class = "tab-content" id = "skills">
+							<div class = "skillimg">
+								<div id = "skill">
+									<div class = "c">
+										<img id = "skillimage" src="images/skills/c.png">
+										<p id = "skilltext">C</p>
+									</div>
+									<div class = "cpp">
+										<img id = "skillimage" src="images/skills/java.png">
+										<p id = "skilltext">Java</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/cpp.png">
+										<p id = "skilltext">C++</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/python.png">
+										<p id = "skilltext">Python</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/html55.png">
+										<p id = "skilltext">HTML</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/css.png">
+										<p id = "skilltext">CSS</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/sql.png">
+										<p id = "skilltext">SQL</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/r.png">
+										<p id = "skilltext">R</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/excel.png">
+										<p id = "skilltext">MS Excel</p>
+									</div>
+									<div>
+										<img id = "skillimage" src="images/skills/javascript.png">
+										<p id = "skilltext">JavaScript</p>
+									</div>
+								</div>
+								</div>
+							</div>
+							<div class = "tab-content" id = "hobbies">
+								<div class = "hobbyimg">
+									<div id = "hobby">
+										<div class = "art">
+											<img id = "hobbyimage" src="images/hobbies/art.png">
+											<p id = "hobbytext">Art</p>
+										</div>
+										<div class = "dance">
+											<img id = "hobbyimage" src="images/hobbies/dance.png">
+											<p id = "hobbytext">Dance</p>
+										</div>
+										<div class = "food">
+											<img id = "hobbyimage" src="images/hobbies/food.png">
+											<p id = "hobbytext">Food</p>
+										</div>
+										<div class = "music">
+											<img id = "hobbyimage" src="images/hobbies/music.png">
+											<p id = "hobbytext">Music</p>
+										</div>
+										<div class = "travel">
+											<img id = "hobbyimage" src="images/hobbies/travel.png">
+											<p id = "hobbytext">Travel</p>
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- END OF ABOUT ME -->
+
+<!-- services -->
+<section id = "services">
+	<div id = "services" class = "service">
+		<div class = "container">
+			<h1>Domains</h1>
+			<div class="service-box">
+				<div class="service-list">
+					<div>
+						<img id = "serviceimg" src = "images/domains/data.png">
+						<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; 	
+						">Data Analytics</h3>
+						<p>Data analytics is not just about technological implementation; it's also about how you interpret the data 
+							to draw conclusions and use it to make decisions</p>
+					</div>
+					<div>
+						<img id = "serviceimg" src = "images/domains/ml.png">
+						<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Machine Learning</h3>
+						<p>Machine learning is boundless. Some learn from books and other sources, while others learn from experiences. 
+							Everything revolves around discovering new methods to use the power of data</p>
+					</div>
+					<div>
+						<img id = "serviceimg" src = "images/domains/webdev.png">
+						<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Web Development</h3>
+						<p>Profession of Art, is what Web development is. Building websites requires strong programming abilities and 
+							opportunities to showcase your creativity</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- 4. activities section -->
+
+<section id = "activities">
+<div id = "activities" class = "activity">
+	<div class = "container">
+		<h1>Activities</h1>
+		<div class="activity-box">
+			<div class="activity-list">
+				<div>
+					<img id = "activityimg" src = "images/activities/communication.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Communication</h3>
+					<p>Member of Debating Union and Enactus club at Rajalakshmi Engineering College. Volunteered for elocution competitions at Satyam International School</p>
+				</div>
+				<div>
+					<img id = "activityimg" src = "images/activities/teamplayer.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Team Player</h3>
+					<p>Team worker of department symposium at Rajalakshmi Engineering College. Participated in various hackathons and competitions</p>
+				</div>
+				<div>
+					<img id = "activityimg" src = "images/activities/leader.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Leadership</h3>
+					<p>Served as House Vice-captain in Class IX, at Satyam International School. Served as school council member in class X at Satyam International School</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<!-- 5. projects section -->
+
+<section id = "projects">
+<div id = "projects" class = "project">
+	<div class = "container">
+		<h1 >Projects</h1>
+		<div class="project-box">
+			<div class="project-list">
+				<div>
+					<img id = "projectimg" src = "images/projects/portfolio.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">BVP</h3>
+					<p><span style = "color: black; font-weight: 600;">Key Skills</span>&nbsp;
+						<span style = "color: grey; font-weight: 600; font-size: 14px;">HTML | CSS | JavaScript</span></p><br>
+					<p style = "text-align: left;">BVP is a personal portfolio website that contains all of the user's information, right from introduction 
+						to a contact page. This project is a schematic way of showcasing skills, abilities and creativity&nbsp;
+						<a href = "https://vinayparekh.vercel.app"><img src = "images/icons/link.png"></a></p>
+				</div>
+				<div>
+					<img id = "projectimg" src = "images/projects/chroma.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Chroma Guesser</h3>
+					<p><span style = "color: black; font-weight: 600;">Key Skills</span>&emsp;
+						<span style = "color: grey; font-weight: 600; font-size: 14px;">C++ | DSA</span></p><br>
+					<p style = "text-align: left;">A color-guessing game application where the user is provided with a limited number of colors to guess the right 
+						sequence of colors with their positions that matches the system generated sequence in a limited number of turns&nbsp;
+						<a href = "#"><img src = "images/icons/link.png"></a>
+					</p>
+				</div>
+				<div>
+					<img id = "projectimg" src = "images/projects/boston.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Boston Housing Analysis</h3>
+					<p><span style = "color: black; font-weight: 600;">Key Skills</span>&nbsp;
+						<span style = "color: grey; font-weight: 600; font-size: 14px;">Data Analytics | Machine Learning</span></p><br>
+					<p style = "text-align: left;">The major objective of this project was to process and analyse the data in order to 
+						forecast the suitable house prices for the available land areas using the median owner-occupied home 
+						valuation (in $1,000s)&nbsp;<a href = "https://github.com/vinay-parekh/EDA-on-Boston_Housing.git">
+						<img src = "images/icons/link.png"></a></p>
+				</div>
+				<div>
+					<img id = "projectimg" src = "images/projects/dozy.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Dozy-Detect</h3>
+					<p><span style = "color: black; font-weight: 600;">Key Skills</span>&emsp;
+						<span style = "color: grey; font-weight: 600; font-size: 14px;">Python | OpenCV | IoT</span></p><br>
+					<p style = "text-align: left;">A real-time sleep detection device that monitors driver's drowsiness and vibrates & emits alerts when it finds 
+						any problems while driving. This device has a variety of possible applications that will guarantee workplace activity&nbsp;
+						<a href = "https://github.com/vinay-parekh/Dozy-Detect.git">
+						<img src = "images/icons/link.png"></a>
+					</p>
+				</div>
+				<div>
+					<img id = "projectimg" src = "images/projects/beatzbot.png">
+					<h3 style = "text-align: center; font-size: 24px; margin-bottom: 10px; ">Beatz-Bot</h3>
+					<p><span style = "color: black; font-weight: 600;">Key Skills</span>&nbsp;
+						<span style = "color: grey; font-weight: 600; font-size: 14px;">Python</span></p><br>
+					<p style = "text-align: left ;">The main purpose of this product is to give users a platform where they can 
+						listen to their favorite songs in a group or by themselves. The user can automatically jump into the 
+						voice channel once they start with the bot. This product has higher potential for Discord users&nbsp;
+						<a href = "https://github.com/vinay-parekh/BeatzBot.git"><img src = "images/icons/link.png"></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<!-- 6. contact section -->
+
+<section id = "contact">
+<div id = "contact" class = "contact-details">
+	<div class="container">
+		<div class="contact-box">
+			<div class="contact-left">
+				<h1>Contact Me</h1><br>
+				<p id = "mailid" style="margin-bottom: 10px; margin-left: 4px;"><img src = "images/icons/mail.png">&ensp; vinayparekh.4802@gmail.com</p>
+				<!-- <p style="margin-bottom: 10px; margin-left: 4px;"><img src="images/icons/phone.png">&ensp;+91 73583 09890</p>				 -->
+				<p style="margin-bottom: 10px; margin-left: 4px;"><img src = "images/icons/location.png">&ensp; 
+					<span style="text-align: justify;">2G, 1st Block,
+					<br>
+					&emsp;&emsp;Shatrunjay Apartments,
+					<br>
+					&emsp;&emsp;Chennai-600 007</span></p>
+				<br><br>
+				<div class="socio-icons">
+					<a id = "insta-icon" href = "https://www.instagram.com/vinayparekh04/"><img src = "images/icons/insta.png"></a>
+					<a id = "github-icon" href = "https://github.com/vinay-parekh"><img src = "images/icons/github.png"></a>
+					<a id = "linkedin-icon" href = "https://www.linkedin.com/in/vinay-parekh-a28285218/"><img src = "images/icons/linkedin.png"></a>
+					<a id = "twitter-icon" href = "https://twitter.com/vinayparekh_"><img src = "images/icons/twitter.png"></a>
+				</div>
+				<div><a id = "btn" style = "margin: 12px 0;"
+					href = "images/personal/Vinay Parekh - CV.pdf" download>
+					Download CV</a></div>
+			</div>
+			<div class="contact-right">
+				<h1>Message here</h1><br>
+
+				<form name = "submit-to-google-sheet">
+					<input type = "text" name = "Name" placeholder="enter your name" required><br>
+					<input type = "email" name = "Email" placeholder = "enter your email" required><br>
+					<textarea name = "Message" rows = "4" placeholder = "your message"></textarea><br>
+					<button class = "btn2"
+					style = "display: block;
+					cursor: pointer;
+					background-color: rgb(73, 64, 90);
+					color: white;
+					font-weight: 580;
+					border: 0;
+					padding: 6px 20px;
+					font-size: 16px;
+					border-radius: 4px;
+					width: fit-content;
+					font-family: 'Poppins', sans-serif;"
+					type = "submit">Submit</button>
+				</form>
+				<span id = "msg"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+</section>
+
+<!-- 7. copyright section -->
+<footer>
+	<div class="copyright">
+		<p>Copyright © 2023 Vinay Parekh. All rights reserved.</p>
+	</div>
+</footer>
+
+<!-- js files -->
+
+<script src = "jsfiles/tabs.js"></script>
+<script src = "jsfiles/menu.js"></script>
+<script src = "jsfiles/contact-form.js"></script>
+<script type="text/javascript">
+	window.addEventListener("scroll", function(){
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY > 0);
+	})
+</script>
+
+</body>
+</html>
